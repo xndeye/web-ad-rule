@@ -1,0 +1,115 @@
+[xndeye web-ad-rule]
+! Last Modified: 2024-07-23 00:00:00
+! Homepage: https://github.com/xndeye/web-ad-rule
+! Description: Some ad-blocking rules and extension scripts for web pages
+
+# 51cto
+51cto.com##[class^="ad-"]
+51cto.com##.Navigates .first
+51cto.com##.common-fix > a:first-child
+51cto.com##.detail-content-right > div
+51cto.com##.new_bloger
+51cto.com##.minmenu li:first-child
+51cto.com##.detail-content-right .username .icon
+51cto.com##.creative a:not(:first-child)
+51cto.com##.hover-ball
+51cto.com##.hot-img
+51cto.com##.home-top
+51cto.com##.swiper-box
+51cto.com## #medalListBox
+51cto.com##.action-aside-left
+51cto.com##.fixtitle .messbox
+
+# segmentfault
+segmentfault.com##div[role="dialog"]
+segmentfault.com##iframe.ad-container
+segmentfault.com###hotArticles
+segmentfault.com##.navbar-nav :nth-child(n+4)
+segmentfault.com##footer .container > :not(:last-child)
+segmentfault.com###first-ad
+segmentfault.com###gridAd
+segmentfault.com##div[aria-label="Advertisement"]
+segmentfault.com##.modal-backdrop
+
+# w3cschool
+w3cschool.cn##.spread-layer
+w3cschool.cn##.headlines
+w3cschool.cn###nav
+w3cschool.cn###main
+w3cschool.cn###rfbanner
+w3cschool.cn##.abox-novip-item
+w3cschool.cn###topbanner
+w3cschool.cn###rfbanner
+w3cschool.cn###newCourse
+w3cschool.cn##.header-menu > li:last-child
+w3cschool.cn###toolbar
+w3cschool.cn##.content-extra
+w3cschool.cn##.aside-relevant-course
+w3cschool.cn###footer
+w3cschool.cn##.widget-body
+w3cschool.cn##.package-bar
+
+# juejin
+juejin.cn##.app-download-sidebar-block
+juejin.cn##.sidebar-bd-entry
+juejin.cn##.vip-entry
+juejin.cn##.index-aside
+juejin.cn##.phone-hide .nav-item:nth-child(n+3)
+juejin.cn##.category-course-recommend
+juejin.cn##.banner
+juejin.cn##.extension-banner
+juejin.cn##.book-card-item
+juejin.cn##.username :not(:first-child)
+juejin.cn##.advertisement
+juejin.cn##.post-bottom-right
+juejin.cn##.global-float-banner
+juejin.cn##.dark-mode-notification
+juejin.cn##.bottom-login-guide
+juejin.cn##.ai-assistant-notification
+juejin.cn##.btn-ai
+juejin.cn##.jj-recommend-users
+juejin.cn##.info-box .extra-container
+juejin.cn##.wechat-ad
+
+# didispace
+didispace.com###read-more-wrap
+didispace.com##.wwads-cn
+
+# appinn
+appinn.com##.featured-section
+appinn.com###sidebar.wp-block-image, .size-full
+appinn.com###latest-posts .latestPost:nth-child(-n+3)
+
+# fuliba
+fuliba2023.net##.sidebar
+fuliba2023.net##.site-navbar>li:nth-child(3),.site-navbar>li:nth-child(4)
+fuliba2023.net##.karbar ul>li:nth-child(1),.karbar ul>li:nth-child(2)
+fuliba2023.net##.swiper-container
+fuliba2023.net##.more
+fuliba2023.net##iframe
+fuliba2024.net##.sidebar
+fuliba2024.net##.site-navbar>li:nth-child(3),.site-navbar>li:nth-child(4)
+fuliba2024.net##.karbar ul>li:nth-child(1),.karbar ul>li:nth-child(2)
+fuliba2024.net##.swiper-container
+fuliba2024.net##.more
+fuliba2024.net##iframe
+
+# zhihu
+zhihu.com##.SearchMain + div
+zhihu.com##.AppBanner
+zhihu.com##.Question-mainColumnLogin
+zhihu.com##.RelatedCommodities-title
+zhihu.com##.RelatedCommodities-list
+
+# springdoc cn
+springdoc.cn/ad/
+
+# susuifa.com
+susuifa.com##.slider-row-1
+susuifa.com##.single-top-html
+susuifa.com##.post-note
+susuifa.com##.single-bottom-html
+
+#doc.hutool.cn
+doc.hutool.cn##.hutool-top-zz
+doc.hutool.cn##.custom-html-window, .custom-html-window-lb
