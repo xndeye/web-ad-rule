@@ -30,6 +30,8 @@ segmentfault.com###first-ad
 segmentfault.com###gridAd
 segmentfault.com##div[aria-label="Advertisement"]
 segmentfault.com##.modal-backdrop
+segmentfault.com##.card-body .position-relative > :last-child
+segmentfault.com#$#.card-body .position-relative { height: auto !important; }
 
 # w3cschool
 w3cschool.cn##.spread-layer
@@ -119,3 +121,5 @@ susuifa.com##.single-bottom-html
 doc.hutool.cn##.hutool-top-zz
 doc.hutool.cn##.custom-html-window
 doc.hutool.cn##.custom-html-window-lb
+doc.hutool.cn#$#.sidebar>.sidebar-links {margin-top: -8rem !important;}
+doc.hutool.cn##.wwads-cn
