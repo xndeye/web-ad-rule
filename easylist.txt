@@ -92,6 +92,7 @@ fuliba2023..karbar ul>li:nth-child(2)
 fuliba2023.net##.swiper-container
 fuliba2023.net##.more
 fuliba2023.net##iframe
+fuliba2023.net##.content > a
 fuliba2024.net##.sidebar
 fuliba2024.net##.site-navbar>li:nth-child(3)
 fuliba2024..site-navbar>li:nth-child(4)
@@ -100,6 +101,7 @@ fuliba2024..karbar ul>li:nth-child(2)
 fuliba2024.net##.swiper-container
 fuliba2024.net##.more
 fuliba2024.net##iframe
+fuliba2024.net##.content > a
 
 # zhihu
 zhihu.com##.SearchMain + div
