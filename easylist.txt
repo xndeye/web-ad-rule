@@ -1,15 +1,12 @@
 [xndeye web-ad-rule]
-! Last Modified: 2024-07-24 12:00:00
+! Last Modified: 2024-12-10 12:00:00
 ! Homepage: https://github.com/xndeye/web-ad-rule
 ! Description: Some ad-blocking rules and extension scripts for web pages
 
 # 51cto
 51cto.com##[class^="ad-"]
-51cto.com##.Navigates .first
 51cto.com##.common-fix > a:first-child
-51cto.com##.detail-content-right > div
 51cto.com##.new_bloger
-51cto.com##.minmenu li:first-child
 51cto.com##.detail-content-right .username .icon
 51cto.com##.creative a:not(:first-child)
 51cto.com##.hover-ball
@@ -19,6 +16,10 @@
 51cto.com## #medalListBox
 51cto.com##.action-aside-left
 51cto.com##.fixtitle .messbox
+51cto.com##.home-right
+51cto.com##.minmenu li:not(:last-child)
+51cto.com##.Navigates li:not(:nth-child(-n+3))
+51cto.com#$#.Header {top: 0 !important;}
 
 # segmentfault
 segmentfault.com##div[role="dialog"]
