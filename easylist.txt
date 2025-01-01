@@ -1,5 +1,5 @@
 [xndeye web-ad-rule]
-! Last Modified: 2024-12-10 12:00:00
+! Last Modified: 2025-01-01 12:00:00
 ! Homepage: https://github.com/xndeye/web-ad-rule
 ! Description: Some ad-blocking rules and extension scripts for web pages
 
@@ -103,13 +103,15 @@ fuliba2024.net##.swiper-container
 fuliba2024.net##.more
 fuliba2024.net##iframe
 fuliba2024.net##.content > a
-
-# zhihu
-zhihu.com##.SearchMain + div
-zhihu.com##.AppBanner
-zhihu.com##.Question-mainColumnLogin
-zhihu.com##.RelatedCommodities-title
-zhihu.com##.RelatedCommodities-list
+fuliba2025.net##.sidebar
+fuliba2025.net##.site-navbar>li:nth-child(3)
+fuliba2025..site-navbar>li:nth-child(4)
+fuliba2025.net##.karbar ul>li:nth-child(1)
+fuliba2025..karbar ul>li:nth-child(2)
+fuliba2025.net##.swiper-container
+fuliba2025.net##.more
+fuliba2025.net##iframe
+fuliba2025.net##.content > a
 
 # springdoc cn
 springdoc.cn/ad/
