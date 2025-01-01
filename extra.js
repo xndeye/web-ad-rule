@@ -12,7 +12,6 @@
 // @match       *://www.appinn.com/*
 // @match       *://fuliba2023.net/*
 // @match       *://fuliba2024.net/*
-// @match       *://*.zhihu.com/*
 // @grant       GM_addStyle
 // @run-at      document-start
 // @require     https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js
@@ -67,10 +66,6 @@ switch (getdomain()) {
     case 'fuliba2023.net':
     case 'fuliba2024.net':
         GM_addStyle('.content-wrap .content {margin-right: 0; !important;}')
-        break;
-    case 'zhihu.com':
-        GM_addStyle('.SearchMain {width: inherit !important;}') //搜索列表宽度
-
         break;
 }
 
@@ -129,16 +124,6 @@ window.onload = function () {
             $('.excerpt').each(function () {
                 if ($(this).find('.cat').text().includes('购物网赚')) {
                     $(this).remove()
-                }
-            })
-            break;
-        case 'zhihu.com':
-            $('.Pc-card, .Pc-word').remove();
-            $('.itcauecng').removeAttr('style');
-            $('a[href]').each(function () {
-                let link = $(this).attr('href').replace('https://link.zhihu.com/?target=', '');
-                if (typeof link !== 'undefined') {
-                    $(this).attr('href', decodeURIComponent(link));
                 }
             })
             break;
