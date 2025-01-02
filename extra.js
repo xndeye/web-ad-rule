@@ -12,6 +12,7 @@
 // @match       *://www.appinn.com/*
 // @match       *://fuliba2023.net/*
 // @match       *://fuliba2024.net/*
+// @match       *://fuliba2025.net/*
 // @grant       GM_addStyle
 // @run-at      document-start
 // @require     https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js
@@ -65,6 +66,7 @@ switch (getdomain()) {
         break;
     case 'fuliba2023.net':
     case 'fuliba2024.net':
+    case 'fuliba2025.net':
         GM_addStyle('.content-wrap .content {margin-right: 0; !important;}')
         break;
 }
@@ -120,6 +122,7 @@ window.onload = function () {
             break;
         case 'fuliba2023.net':
         case 'fuliba2024.net':
+        case 'fuliba2025.net':
             $('span[style]').attr('style', 'color: green; !important;')
             $('.excerpt').each(function () {
                 if ($(this).find('.cat').text().includes('购物网赚')) {
