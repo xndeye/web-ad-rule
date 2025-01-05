@@ -1,5 +1,5 @@
 [xndeye web-ad-rule]
-! Last Modified: 2025-01-01 12:00:00
+! Last Modified: 2025-01-05 12:00:00
 ! Homepage: https://github.com/xndeye/web-ad-rule
 ! Description: Some ad-blocking rules and extension scripts for web pages
 
@@ -7,19 +7,20 @@
 51cto.com##[class^="ad-"]
 51cto.com##.common-fix > a:first-child
 51cto.com##.new_bloger
-51cto.com##.detail-content-right .username .icon
 51cto.com##.creative a:not(:first-child)
 51cto.com##.hover-ball
 51cto.com##.hot-img
 51cto.com##.home-top
 51cto.com##.swiper-box
-51cto.com## #medalListBox
+51cto.com###medalListBox
 51cto.com##.action-aside-left
 51cto.com##.fixtitle .messbox
 51cto.com##.home-right
 51cto.com##.minmenu li:not(:last-child)
 51cto.com##.Navigates li:not(:nth-child(-n+3))
 51cto.com#$#.Header {top: 0 !important;}
+blog.51cto.com##.detail-content-right .username .icon
+blog.51cto.com##.detail-content-right>*:not(:first-child):not(:last-child)
 
 # segmentfault
 segmentfault.com##div[role="dialog"]
@@ -74,44 +75,25 @@ juejin.cn##.jj-recommend-users
 juejin.cn##.info-box .extra-container
 juejin.cn##.wechat-ad
 
-# didispace
-www.didispace.com###read-more-wrap
-www.didispace.com##.wwads-cn
-
 # appinn
 www.appinn.com##.featured-section
 www.appinn.com###sidebar.wp-block-image
 www.appinn.com##.size-full
 www.appinn.com###latest-posts .latestPost:nth-child(-n+3)
+www.appinn.com##.latestPost:has(a[title="View all posts in 团购"])
+www.appinn.com##.latestPost:has(a[title="View all posts in AD"])
 
 # fuliba
-fuliba2023.net##.sidebar
-fuliba2023.net##.site-navbar>li:nth-child(3)
-fuliba2023..site-navbar>li:nth-child(4)
-fuliba2023.net##.karbar ul>li:nth-child(1)
-fuliba2023..karbar ul>li:nth-child(2)
-fuliba2023.net##.swiper-container
-fuliba2023.net##.more
-fuliba2023.net##iframe
-fuliba2023.net##.content > a
-fuliba2024.net##.sidebar
-fuliba2024.net##.site-navbar>li:nth-child(3)
-fuliba2024..site-navbar>li:nth-child(4)
-fuliba2024.net##.karbar ul>li:nth-child(1)
-fuliba2024..karbar ul>li:nth-child(2)
-fuliba2024.net##.swiper-container
-fuliba2024.net##.more
-fuliba2024.net##iframe
-fuliba2024.net##.content > a
-fuliba2025.net##.sidebar
-fuliba2025.net##.site-navbar>li:nth-child(3)
-fuliba2025..site-navbar>li:nth-child(4)
-fuliba2025.net##.karbar ul>li:nth-child(1)
-fuliba2025..karbar ul>li:nth-child(2)
-fuliba2025.net##.swiper-container
-fuliba2025.net##.more
-fuliba2025.net##iframe
-fuliba2025.net##.content > a
+fuliba2023.net,fuliba2024.net,fuliba2025.net##.sidebar
+fuliba2023.net,fuliba2024.net,fuliba2025.net##.site-navbar>li:is(:nth-child(3),:nth-child(4),:nth-child(5))
+fuliba2023.net,fuliba2024.net,fuliba2025.net##.karbar ul>li:not(:nth-child(2))
+fuliba2023.net,fuliba2024.net,fuliba2025.net##.swiper-container
+fuliba2023.net,fuliba2024.net,fuliba2025.net##.more
+fuliba2023.net,fuliba2024.net,fuliba2025.net##iframe
+fuliba2023.net,fuliba2024.net,fuliba2025.net##.content > a
+fuliba2023.net,fuliba2024.net,fuliba2025.net#$#.content { margin-right: 0 !important; }
+fuliba2023.net,fuliba2024.net,fuliba2025.net#$#span[style] { color: green !important; }
+fuliba2023.net,fuliba2024.net,fuliba2025.net##.excerpt:has(.cat:contains(购物网赚))
 
 # springdoc cn
 springdoc.cn/ad/
@@ -128,3 +110,8 @@ doc.hutool.cn##.custom-html-window
 doc.hutool.cn##.custom-html-window-lb
 doc.hutool.cn#$#.sidebar>.sidebar-links {margin-top: -8rem !important;}
 doc.hutool.cn##.wwads-cn
+
+# iswbm
+python.iswbm.com,golang.iswbm.com##.wy-nav-content:style(max-width: none !important)
+python.iswbm.com,golang.iswbm.com###read-more-wrap
+python.iswbm.com,golang.iswbm.com##.wy-nav-content .rst-content:style(all: unset !important)
