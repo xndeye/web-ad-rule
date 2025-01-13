@@ -1,5 +1,5 @@
 [xndeye web-ad-rule]
-! Last Modified: 2025-01-05 12:00:00
+! Last Modified: 2025-01-13 00:00:00
 ! Homepage: https://github.com/xndeye/web-ad-rule
 ! Description: Some ad-blocking rules and extension scripts for web pages
 
@@ -21,6 +21,7 @@
 51cto.com#$#.Header {top: 0 !important;}
 blog.51cto.com##.detail-content-right .username .icon
 blog.51cto.com##.detail-content-right>*:not(:first-child):not(:last-child)
+blog.51cto.com##.article-item:has(.type_top)
 
 # segmentfault
 segmentfault.com##div[role="dialog"]
@@ -58,7 +59,6 @@ juejin.cn##.app-download-sidebar-block
 juejin.cn##.sidebar-bd-entry
 juejin.cn##.vip-entry
 juejin.cn##.index-aside
-juejin.cn##.phone-hide .nav-item:nth-child(n+3)
 juejin.cn##.category-course-recommend
 juejin.cn##.banner
 juejin.cn##.extension-banner
@@ -74,6 +74,11 @@ juejin.cn##.btn-ai
 juejin.cn##.jj-recommend-users
 juejin.cn##.info-box .extra-container
 juejin.cn##.wechat-ad
+juejin.cn##.render
+juejin.cn##.meiqia-btn
+juejin.cn##.article-summary
+junjin.cn##.app-open-button
+junjin.cn##.app-open-drawer
 
 # appinn
 www.appinn.com##.featured-section
