@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        WebAdRule Extra Script
-// @version     1.1.0
+// @version     1.1.1
 // @namespace   http://tampermonkey.net/
 // @match       *://*.51cto.com/*
 // @match       *://*.segmentfault.com/*
