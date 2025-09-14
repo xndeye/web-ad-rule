@@ -120,3 +120,32 @@ doc.hutool.cn##.wwads-cn
 python.iswbm.com,golang.iswbm.com##.wy-nav-content:style(max-width: none !important)
 python.iswbm.com,golang.iswbm.com###read-more-wrap
 python.iswbm.com,golang.iswbm.com##.wy-nav-content .rst-content:style(all: unset !important)
+
+#xiaolincoding.com
+||cdn.xiaolincoding.com/readmore.js$domain=xiaolincoding.com
+https://cdn.xiaolincoding.com/mianshiya.png$domain=xiaolincoding.com
+
+!north-plus
+north-plus.net,spring-plus.net,white-plus.net###header>div:last-child
+
+!iconfont
+iconfont.cn##.top-tip
+
+!115
+115.com##.notification-content,.feature-float
+115.com###js_common_act-enter
+
+!javdb
+javbus.com##.ad-box
+
+!ddys
+ddys.pro##.entry:first-child,.cfa_popup,.site-main>div:first-child
+
+!gbtgame.me
+pan.gbtgame.me##.floating-ad-container,.floating-ad-container-left
+
+!cnblogs
+cnblogs.com##.charm-bar
+
+!cycani
+cycani.org,ciyuancheng.net##.ec-tutu, .ec-tutu-double
