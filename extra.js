@@ -7,7 +7,7 @@
 // @match       *://juejin.cn/*
 // @grant       GM_addStyle
 // @run-at      document-start
-// @require     https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js
+// @require     https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js
 // @author      xndeye
 // @description This script is an extension of the Web Ad Rule to fix something that easylist can't handle
 // @license MIT
