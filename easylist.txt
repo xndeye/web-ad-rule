@@ -122,8 +122,10 @@ python.iswbm.com,golang.iswbm.com###read-more-wrap
 python.iswbm.com,golang.iswbm.com##.wy-nav-content .rst-content:style(all: unset !important)
 
 #xiaolincoding.com
-||cdn.xiaolincoding.com/readmore.js$domain=xiaolincoding.com
-https://cdn.xiaolincoding.com/mianshiya.png$domain=xiaolincoding.com
+||*readmore.js$domain=xiaolincoding.com
+xiaolincoding.com#?#p[align='center']
+xiaolincoding.com#?##readmore-container>:nth-last-child(-n+2)
+xiaolincoding.com#?#.page-side-toolbar .option-box:not(:nth-child(-n+3)):not(:nth-last-child(-n+2))
 
 !north-plus
 north-plus.net,spring-plus.net,white-plus.net###header>div:last-child
