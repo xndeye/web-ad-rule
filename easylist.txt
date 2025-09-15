@@ -1,5 +1,5 @@
 [xndeye web-ad-rule]
-! Last Modified: 2025-01-13 00:00:00
+! Last Modified: 2025-09-15 00:00:00
 ! Homepage: https://github.com/xndeye/web-ad-rule
 ! Description: Some ad-blocking rules and extension scripts for web pages
 
