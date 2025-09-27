@@ -89,16 +89,16 @@ www.appinn.com##.latestPost:has(a[title="View all posts in 团购"])
 www.appinn.com##.latestPost:has(a[title="View all posts in AD"])
 
 # fuliba
-fuliba2023.net,fuliba2024.net,fuliba2025.net##.sidebar
-fuliba2023.net,fuliba2024.net,fuliba2025.net##.site-navbar>li:is(:nth-child(3),:nth-child(4),:nth-child(5))
-fuliba2023.net,fuliba2024.net,fuliba2025.net##.karbar ul>li:not(:nth-child(2))
-fuliba2023.net,fuliba2024.net,fuliba2025.net##.swiper-container
-fuliba2023.net,fuliba2024.net,fuliba2025.net##.more
-fuliba2023.net,fuliba2024.net,fuliba2025.net##iframe
-fuliba2023.net,fuliba2024.net,fuliba2025.net##.content > a
-fuliba2023.net,fuliba2024.net,fuliba2025.net#$#.content { margin-right: 0 !important; }
-fuliba2023.net,fuliba2024.net,fuliba2025.net#$#span[style] { color: green !important; }
-fuliba2023.net,fuliba2024.net,fuliba2025.net##.excerpt:has(.cat:contains(购物网赚))
+fuliba.net,fuliba2023.net,fuliba2024.net,fuliba2025.net##.sidebar
+fuliba.net,fuliba2023.net,fuliba2024.net,fuliba2025.net##.site-navbar>li:is(:nth-child(3),:nth-child(4),:nth-child(5))
+fuliba.net,fuliba2023.net,fuliba2024.net,fuliba2025.net##.karbar ul>li:not(:nth-child(2))
+fuliba.net,fuliba2023.net,fuliba2024.net,fuliba2025.net##.swiper-container
+fuliba.net,fuliba2023.net,fuliba2024.net,fuliba2025.net##.more
+fuliba.net,fuliba2023.net,fuliba2024.net,fuliba2025.net##iframe
+fuliba.net,fuliba2023.net,fuliba2024.net,fuliba2025.net##.content > a
+fuliba.net,fuliba2023.net,fuliba2024.net,fuliba2025.net#$#.content { margin-right: 0 !important; }
+fuliba.net,fuliba2023.net,fuliba2024.net,fuliba2025.net#$#span[style] { color: green !important; }
+fuliba.net,fuliba2023.net,fuliba2024.net,fuliba2025.net##.excerpt:has(.cat:contains(购物网赚))
 
 # springdoc cn
 springdoc.cn/ad/
