@@ -157,3 +157,6 @@ digvps.com##div[data-slot~="bottom"]>div
 
 !mvnrepository.com
 mvnrepository.com##.box:has(> a)
+
+!ping0
+ping0.cc##.myeles
