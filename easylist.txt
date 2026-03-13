@@ -84,7 +84,7 @@ junjin.cn##.app-open-drawer
 www.appinn.com##.featured-section
 www.appinn.com###sidebar.wp-block-image
 www.appinn.com##.size-full
-www.appinn.com###latest-posts .latestPost:nth-child(-n+3)
+www.appinn.com##.secondary-navigation .container > *:not(nav)
 www.appinn.com##.latestPost:has(a[title="View all posts in 团购"])
 www.appinn.com##.latestPost:has(a[title="View all posts in AD"])
 
