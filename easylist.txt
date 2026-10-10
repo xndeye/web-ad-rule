@@ -154,6 +154,7 @@ cycani.org,ciyuancheng.net##.ec-tutu, .ec-tutu-double
 
 !digvps.com
 digvps.com##div[data-slot~="bottom"]>div
+digvps.com##div:has(> a[rel~="sponsored"])
 
 !mvnrepository.com
 mvnrepository.com##.box:has(> a)
